@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = Kivy Crash Course
+title = BestFit
 
 # (str) Package name
-package.name = kivycrash
+package.name = bestfit
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
@@ -36,7 +36,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma seperated e.g. requirements = sqlite3,kivy
-requirements = python3crystax, kivy
+requirements = python3crystax,kivy
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -52,7 +52,7 @@ requirements = python3crystax, kivy
 #icon.filename = %(source.dir)s/data/icon.png
 
 # (str) Supported orientation (one of landscape, portrait or all)
-orientation = all
+orientation = portrait
 
 # (list) List of service to declare
 #services = NAME:ENTRYPOINT_TO_PY,NAME2:ENTRYPOINT2_TO_PY
@@ -91,7 +91,7 @@ fullscreen = 0
 #android.api = 19
 
 # (int) Minimum API required
-#android.minapi = 9
+android.minapi = 14
 
 # (int) Android SDK version to use
 #android.sdk = 20
@@ -103,13 +103,13 @@ fullscreen = 0
 #android.private_storage = True
 
 # (str) Android NDK directory (if empty, it will be automatically downloaded.)
-android.ndk_path = /mnt/c/Users/sudip/GitHub/crystax-ndk-10.3.2
+#android.ndk_path = /mnt/c/Users/sudip/crystax-ndk-10.3.2
 
 # (str) Android SDK directory (if empty, it will be automatically downloaded.)
-#android.sdk_path =
+#android.sdk_path = /mnt/c/Users/sudip/.buildozer/android/platform/android-sdk-20
 
 # (str) ANT directory (if empty, it will be automatically downloaded.)
-#android.ant_path =
+#android.ant_path = /mnt/c/Users/sudip/.buildozer/android/platform/apache-ant-1.9.4
 
 # (bool) If True, then skip trying to update the Android sdk
 # This can be useful to avoid excess Internet downloads or save time
