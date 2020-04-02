@@ -1,6 +1,9 @@
 # Sublime Text workspace files
 *.sublime-workspace
 
+# Jupyter
+.ipynb_checkpoints/
+
 #################
 ## Eclipse
 #################
