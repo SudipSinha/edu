@@ -11,4 +11,4 @@ This repository contains small projects and assignments done during my education
     0. Finite Elements - Winnifried Wollner @ UHH
     0. Finite Differences and Finite Volumes - Jens StruckMeier @ UHH
 * IMA - Container for my codes from the IMA Math-to-Industry Boot Camp II
-* ProjectEuler.ipynb - Codes for the first few problems of [Project Euler](projecteuler.net) in [Julia](https://julialang.org/)
+* ProjectEuler.ipynb - Codes for the first few problems of [Project Euler](https://projecteuler.net) in [Julia](https://julialang.org)
