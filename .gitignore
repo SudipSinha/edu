@@ -1,3 +1,6 @@
+# Temporary code files
+temp/
+
 # Sublime Text workspace files
 *.sublime-workspace
 
